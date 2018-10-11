@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Blindfolded Trainer</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Blindfolded Trainer</h1>
+        <div class="type">
+            <input type="radio" name="type" id="edges" value="edges">
+            <label for="edges">Edges</label>
+            <input type="radio" name="type" id="corners" value="corners" checked>
+            <label for="corners">Corners</label>
+        </div>
+        <button id="begin">Click to Generate!</button>
+        <canvas height="300px" width="300px"></canvas>
+        <h2 id="message"></h2>
+        <h2 id="time"></h2>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #ccf;
+    width: 100vw;
+    height: 100vh;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, label, button {
+    font-family: 'Roboto';
+    color: #113;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+input, label, button {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+canvas {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 400px;
+    height: 50px;
+    background-color: #33c;
+    border: none;
+    color: #ccc;
+    border-radius: 7px;
+    box-shadow: #11113366 5px 5px 5px;
+}
